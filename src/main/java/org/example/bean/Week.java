@@ -4,18 +4,18 @@ import lombok.Getter;
 import lombok.Setter;
 
 @Getter@Setter
-public class Weeks {
+public class Week {
 
     private String name;
 
     private int value = 0;
 
-    public Weeks(String name) {
+    public Week(String name) {
         this.name = name;
     }
 
 
-    public Weeks addValue3() {
+    public Week addValue3() {
         value++;
         return this;
     }
