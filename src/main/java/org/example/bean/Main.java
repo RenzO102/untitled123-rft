@@ -4,16 +4,17 @@ import lombok.Getter;
 import lombok.Setter;
 
 @Getter@Setter
-public class Z {
-    private int Z;
+public class Main {
+
+    private int main;
     private int value = 0;
 
-    public Z( int Y) {
-        this.Z = Z;
+    public Main(int main) {
+        this.main = main;
     }
 
-    public Z addValue3() {
-        Z++;
+    public Main addValue1() {
+        main++;
         return this;
     }
 }

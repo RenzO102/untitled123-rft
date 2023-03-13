@@ -4,18 +4,18 @@ import lombok.Getter;
 import lombok.Setter;
 
 @Getter@Setter
-public class Month {
+public class MonthData {
 
     private String name;
 
     private int value = 0;
 
-    public Month( String name) {
+    public MonthData(String name) {
         this.name = name;
     }
 
 
-    public Month addValue() {
+    public MonthData addValue() {
         value++;
         return this;
     }
